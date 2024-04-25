@@ -50,14 +50,14 @@ label {
 }
 
 input {
-    border: 1px solid transparent !important;
+    border: 1px solid black  ;
     font-style: italic;
     outline: none !important;
 }
 
 input:hover, input:active , input:focus {
 
-    border: 1px solid transparent !important;
+    border: 1px solid transparent ;
     box-shadow: 0px 0px 4px 0px black;
 
 }

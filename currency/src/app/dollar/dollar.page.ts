@@ -30,6 +30,10 @@ export class DollarPage implements OnInit {
       console.log(reais.value)
 
 
+    } else {
+
+      dollars.style.border = "1px solid red"
+
     }
 
 
