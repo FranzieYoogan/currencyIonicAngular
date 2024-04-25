@@ -26,7 +26,7 @@ export class DollarPage implements OnInit {
     if(dollars.value > 0 && dollars.value != "") {
 
       reais.value = (dollars.value * 5.17).toFixed(2);
-
+      dollars.style.border = "1px solid green"
       console.log(reais.value)
 
 

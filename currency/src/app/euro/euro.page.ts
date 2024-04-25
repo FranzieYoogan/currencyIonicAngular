@@ -27,7 +27,7 @@ export class EuroPage implements OnInit {
     if(euro.value > 0 && euro.value != "") {
 
       reais2.value = (euro.value * 5.54).toFixed(2);
-
+      euro.style.border = "1px solid green"
       console.log(reais2.value)
 
 

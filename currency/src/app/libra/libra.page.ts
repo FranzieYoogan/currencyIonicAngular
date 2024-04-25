@@ -26,7 +26,7 @@ export class LibraPage implements OnInit {
     if(libra.value > 0 && libra.value != "") {
 
       reais3.value = (libra.value * 6.45).toFixed(2);
-
+      libra.style.border = "1px solid green"
       console.log(reais3.value)
 
 
