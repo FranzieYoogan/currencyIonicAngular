@@ -18,4 +18,24 @@ export class LibraPage implements OnInit {
   ngOnInit() {
   }
 
+  convertLibra() {
+    
+    const libra:any = document.getElementById('libra');
+    const reais3:any = document.getElementById('reais3');
+
+    if(libra.value > 0 && libra.value != "") {
+
+      reais3.value = (libra.value * 6.45).toFixed(2);
+
+      console.log(reais3.value)
+
+
+    } else {
+
+      libra.style.border = "1px solid red"
+
+    }
+
+}
+
 }

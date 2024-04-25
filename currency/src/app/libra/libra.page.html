@@ -10,6 +10,19 @@
 
 <ion-content [fullscreen]="true">
  
-  <h1>libra</h1>
+ <section class="containerAll">
+ <form>
+  <div class="mb-3">
+    <label for="libra" class="form-label">Libra</label>
+    <input type="number" class="form-control" id="libra" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="reais" class="form-label">Value in reais</label>
+    <input type="number" class="inputResult form-control" id="reais3" value="0" disabled>
+  </div>
+
+  <button type="submit" (click)="convertLibra()" class="btn btn-primary">Convert</button>
+</form>
+</section>
 
 </ion-content>
