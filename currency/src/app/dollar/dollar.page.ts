@@ -33,7 +33,7 @@ export class DollarPage implements OnInit {
     } else {
 
       dollars.style.border = "1px solid red"
-
+      reais.value = 0
     }
 
 

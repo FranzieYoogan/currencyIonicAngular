@@ -34,7 +34,7 @@ export class EuroPage implements OnInit {
     } else {
 
       euro.style.border = "1px solid red"
-
+      reais2.value = 0
     }
 
 }

@@ -33,7 +33,7 @@ export class LibraPage implements OnInit {
     } else {
 
       libra.style.border = "1px solid red"
-
+      reais3.value = 0
     }
 
 }
