@@ -27,6 +27,7 @@ button {
     width: 100%;
     background-color: orange;
     border: 1px solid black;
+    font-weight: 900;
 }
 
 
@@ -49,7 +50,14 @@ label {
 }
 
 input {
-
+    border: 1px solid transparent !important;
     font-style: italic;
+    outline: none !important;
+}
+
+input:hover, input:active , input:focus {
+
+    border: 1px solid transparent !important;
+    box-shadow: 0px 0px 4px 0px black;
 
 }
