@@ -18,4 +18,25 @@ export class EuroPage implements OnInit {
   ngOnInit() {
   }
 
+
+  convertEuro() {
+    
+    const euro:any = document.getElementById('euro');
+    const reais2:any = document.getElementById('reais2');
+
+    if(euro.value > 0 && euro.value != "") {
+
+      reais2.value = (euro.value * 5.54).toFixed(2);
+
+      console.log(reais2.value)
+
+
+    } else {
+
+      euro.style.border = "1px solid red"
+
+    }
+
+}
+
 }

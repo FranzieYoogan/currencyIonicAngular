@@ -6,7 +6,19 @@
 
 <ion-content [fullscreen]="true">
   
+ <section class="containerAll">
+ <form>
+  <div class="mb-3">
+    <label for="euro" class="form-label">euro</label>
+    <input type="number" class="form-control" id="euro" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="reais" class="form-label">Value in reais</label>
+    <input type="number" class="inputResult form-control" id="reais2" value="0" disabled>
+  </div>
 
-  <h1>euro</h1>
+  <button type="submit" (click)="convertEuro()" class="btn btn-primary">Convert</button>
+</form>
+</section>
 
 </ion-content>

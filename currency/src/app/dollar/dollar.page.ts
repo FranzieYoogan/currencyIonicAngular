@@ -18,7 +18,7 @@ export class DollarPage implements OnInit {
   ngOnInit() {
   }
 
-  convert() {
+  convertDollars() {
     
     const dollars:any = document.getElementById('dollars');
     const reais:any = document.getElementById('reais');
