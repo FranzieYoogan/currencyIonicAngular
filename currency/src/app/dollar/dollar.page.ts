@@ -18,4 +18,22 @@ export class DollarPage implements OnInit {
   ngOnInit() {
   }
 
+  convert() {
+    
+    const dollars:any = document.getElementById('dollars');
+    const reais:any = document.getElementById('reais');
+
+    if(dollars.value > 0 && dollars.value != "") {
+
+      reais.value = (dollars.value * 5.17).toFixed(2);
+
+      console.log(reais.value)
+
+
+    }
+
+
+
+  }
+
 }
